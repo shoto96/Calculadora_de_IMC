@@ -88,6 +88,4 @@ calculadora-imc/
 
 Uso livre para fins educacionais.
 
----
 
-<p align="center">Desenvolvido por <strong>Adila Zairaa</strong></p>
