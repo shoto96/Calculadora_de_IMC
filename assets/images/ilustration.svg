@@ -1,0 +1,100 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 750 600" fill="none">
+  <defs>
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="750" y2="600" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#1a1a2e"/>
+      <stop offset="1" stop-color="#0f0f11"/>
+    </linearGradient>
+    <linearGradient id="greenGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#22c55e"/>
+      <stop offset="1" stop-color="#16a34a"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background subtle circles -->
+  <circle cx="650" cy="120" r="80" fill="#22c55e" opacity="0.06"/>
+  <circle cx="120" cy="480" r="100" fill="#22c55e" opacity="0.04"/>
+  <circle cx="600" cy="500" r="60" fill="#22c55e" opacity="0.05"/>
+
+  <!-- Floor -->
+  <ellipse cx="375" cy="540" rx="280" ry="18" fill="#18181b" opacity="0.5"/>
+
+  <!-- Character body -->
+  <!-- Legs -->
+  <path d="M330 420 L330 530" stroke="#2f2e41" stroke-width="22" stroke-linecap="round"/>
+  <path d="M420 420 L420 530" stroke="#2f2e41" stroke-width="22" stroke-linecap="round"/>
+
+  <!-- Shoes -->
+  <ellipse cx="330" cy="535" rx="18" ry="10" fill="#22c55e"/>
+  <ellipse cx="420" cy="535" rx="18" ry="10" fill="#22c55e"/>
+
+  <!-- Shorts -->
+  <path d="M300 340 Q300 430 375 430 Q450 430 450 340 L450 300 L300 300 Z" fill="#22c55e"/>
+
+  <!-- Torso / Shirt -->
+  <path d="M300 300 L300 180 Q300 150 330 150 L420 150 Q450 150 450 180 L450 300 Q375 320 300 300 Z" fill="#22c55e" opacity="0.9"/>
+
+  <!-- Arms -->
+  <path d="M300 190 Q260 250 280 320" stroke="#2f2e41" stroke-width="18" stroke-linecap="round" fill="none"/>
+  <path d="M450 190 Q490 250 470 320" stroke="#2f2e41" stroke-width="18" stroke-linecap="round" fill="none"/>
+
+  <!-- Hands -->
+  <circle cx="280" cy="325" r="12" fill="#ffb6b6"/>
+  <circle cx="470" cy="325" r="12" fill="#ffb6b6"/>
+
+  <!-- Neck -->
+  <rect x="360" y="135" width="30" height="20" fill="#ffb6b6"/>
+
+  <!-- Head -->
+  <circle cx="375" cy="105" r="45" fill="#ffb6b6"/>
+
+  <!-- Hair -->
+  <path d="M330 95 Q330 45 375 45 Q420 45 420 95 Q420 70 375 70 Q330 70 330 95 Z" fill="#2f2e41"/>
+  <ellipse cx="375" cy="55" rx="35" ry="15" fill="#2f2e41"/>
+
+  <!-- Face features -->
+  <circle cx="360" cy="100" r="4" fill="#2f2e41"/>
+  <circle cx="390" cy="100" r="4" fill="#2f2e41"/>
+  <path d="M365 115 Q375 125 385 115" stroke="#2f2e41" stroke-width="3" stroke-linecap="round" fill="none"/>
+
+  <!-- Heart rate / pulse line -->
+  <polyline points="120 300 160 300 180 250 210 350 240 280 270 300 320 300" 
+            stroke="#22c55e" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.8"/>
+  <circle cx="180" cy="250" r="6" fill="#22c55e" opacity="0.6"/>
+  <circle cx="210" cy="350" r="6" fill="#22c55e" opacity="0.6"/>
+  <circle cx="240" cy="280" r="6" fill="#22c55e" opacity="0.6"/>
+
+  <!-- Small heart icon -->
+  <path d="M140 220 C130 210, 110 210, 110 230 C110 250, 140 270, 140 270 C140 270, 170 250, 170 230 C170 210, 150 210, 140 220 Z" 
+        fill="#ef4444" opacity="0.8"/>
+
+  <!-- Dumbbell on ground -->
+  <rect x="500" y="515" width="80" height="12" rx="6" fill="#3f3f46"/>
+  <circle cx="510" cy="521" r="16" fill="#22c55e" opacity="0.8"/>
+  <circle cx="570" cy="521" r="16" fill="#22c55e" opacity="0.8"/>
+
+  <!-- Weight scale -->
+  <rect x="180" y="500" width="90" height="8" rx="4" fill="#3f3f46"/>
+  <rect x="210" y="460" width="30" height="40" rx="4" fill="#2e2e36"/>
+  <rect x="218" y="468" width="14" height="6" rx="1" fill="#22c55e"/>
+  <rect x="218" y="478" width="10" height="4" rx="1" fill="#94a3b8"/>
+  <rect x="218" y="486" width="12" height="4" rx="1" fill="#94a3b8"/>
+
+  <!-- Floating measurement bubbles -->
+  <circle cx="550" cy="200" r="28" fill="#232329" stroke="#22c55e" stroke-width="2" opacity="0.9"/>
+  <text x="550" y="205" text-anchor="middle" fill="#22c55e" font-family="Poppins, sans-serif" font-size="14" font-weight="600">IMC</text>
+
+  <circle cx="620" cy="280" r="22" fill="#232329" stroke="#22c55e" stroke-width="2" opacity="0.7"/>
+  <text x="620" y="284" text-anchor="middle" fill="#22c55e" font-family="Poppins, sans-serif" font-size="11" font-weight="500">kg</text>
+
+  <circle cx="580" cy="360" r="18" fill="#232329" stroke="#22c55e" stroke-width="2" opacity="0.6"/>
+  <text x="580" y="364" text-anchor="middle" fill="#22c55e" font-family="Poppins, sans-serif" font-size="10" font-weight="500">m</text>
+
+  <!-- Decorative dots -->
+  <circle cx="200" cy="150" r="4" fill="#22c55e" opacity="0.4"/>
+  <circle cx="220" cy="170" r="3" fill="#22c55e" opacity="0.3"/>
+  <circle cx="190" cy="180" r="2" fill="#22c55e" opacity="0.5"/>
+
+  <circle cx="620" cy="420" r="4" fill="#22c55e" opacity="0.4"/>
+  <circle cx="640" cy="400" r="3" fill="#22c55e" opacity="0.3"/>
+  <circle cx="600" cy="430" r="2" fill="#22c55e" opacity="0.5"/>
+</svg>
